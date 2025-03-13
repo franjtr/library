@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Library</h1>
+    <table id="table">
+        <tr>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Pages</th>
+            <th>Read Status</th>
+            <th>Remove</th>
+        </tr>
+    </table>
+    </div>
+    <form id="form">
+        <input type="text" id="bookName" placeholder="Book Name" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <input type="number" id="pages" placeholder="Pages" required>
+        <select id="readStatus" required>
+            <option value="Read">Read</option>
+            <option value="Not Read">Not Read</option>
+        </select>
+        <button class="submit" type="submit">Add Book</button>
+    </form>
+        
+ 
+    <script src="jav.js"></script>
+</body>
+</html>

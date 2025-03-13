@@ -1,0 +1,97 @@
+:root{
+    font-family: "roboto", sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 1000px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+th {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.delete{
+    color: rgb(247, 247, 247);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    background-color: #850202;
+    border-radius: 50%;
+}
+
+.read, .notRead{
+    color: rgb(247, 247, 247);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    background-color: #009879;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100px;
+    height: 25px;
+}
+
+.notRead{
+    background-color: #850202;
+}
+
+body{
+    background-color: #f3f3f3;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+input, select{
+    border: 2px solid #009879;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.submit{
+    background-color: #009879;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form{
+    margin-top:100px;
+    margin-left:80px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px 50px;
+}
